@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="ry">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+    <div class="Logo">
+        <div class="logo-img">
+           <img src="img/logo.png" alt="" class="logo-glaw">
+        </div>
+        <div class="logo-text">
+         <a href="#" class="logo-text-one">Use cases</a>
+         <a href="#" class="logo-text-one">Featyres</a>
+         <a href="#" class="logo-text-one">How to start</a>
+        </div>
+        <a href="../black/index.html"><img src="img/san.png" class="san"></a>
+        <div class="logo-button">
+          
+          <a href="#" class="logo-button-one">Get started</a>
+        </div>
+
+
+    </div>
+    <div class="Iphone">
+        <div class="iphone-text">
+        <p class="iphon-glaw-text">Crypto payments <br> for <span class="iphone-telegram"> telegram bots</span>
+        </p>
+        <p class="iphon-podglaw-text">Seamlessly accept crypto payments <br> 
+            in your Telegram bots and services.</p>
+            <div class="iphon-button"> <a href="#" class="iphon-button-one">Get started</a></div>
+            <div class="iphon-karts">
+                <img src="img/karts.png" alt="" class="iphon-karts-one">
+                <p class="iphon-posled-text">Popular bots use Crypto Pay</p>
+            </div>
+        </div>
+
+        
+        <div class="iphone-img">
+           <img src="img/iphone.png"  class="iphone-img-one">
+        </div>
+    </div>
+</div>
+<div class="perep-fon-one" id="content1">
+  <div class="container">
+      <div class="perep-stroka">
+    <div class="perep-cub">
+      <img src="img/perepiska1.png" class="perep-cub-img">
+      <img src="img/perepiska2.png" class="perep-cub-img-one">
+    </div>
+    <div class="perep-glaw-text">
+      <p class="perep-text-one">
+          Instant  Auto Sales: <br> <span class="perep-podtext">Boost conversion</span>
+      </p>
+
+      <p class="perep-text-two">
+          Immediately deliver digital products <br>and services to your users.
+      </p>
+      <div class="button">
+          <a href="#" class="button-glaw">Open API Docs</a>
+      </div>
+    </div>
+
+    <div class="perekl">
+      <p class="pp">01</p>
+      <div class="perekl-one" onclick="showContent(1)"></div>
+      <div class="perekl-two" onclick="showContent(2)"></div>
+      <div class="perekl-tre" onclick="showContent(3)"></div>
+      <p class="pp6">03</p>
+  </div>
+
+    </div>
+  </div>
+ </div>
+
+ <div class="q1" id="content2" style="display:none;">
+  <div class="container">
+      <div class="perep-stroka">
+    <div class="q2">
+      <img src="img/gg.png" class="q3">
+      <a href="#"><img src="img/ggg.png" class="q4"></a>
+    </div>
+    <div class="q5">
+      <p class="q6">
+          Channels <br> integration: <br> <span class="perep-podtext">Seamless access</span>
+      </p>
+
+      <p class="q7">
+          Automatically unlpck exclusive content <br> to your users.
+      </p>
+      <div class="button">
+          <a href="#" class="button-glaw">Open API Docs</a>
+      </div>
+    </div>
+
+    <div class="perekl1">
+      <p class="pp1">02</p>
+      <div class="perekl-one1" onclick="showContent(1)"></div>
+      <div class="perekl-two1" onclick="showContent(2)"></div>
+      <div class="perekl-tre1" onclick="showContent(3)"></div>
+      <p class="pp10">03</p>
+  </div>
+
+    </div>
+  </div>
+ </div>
+
+ <div class="perep-fonone" id="content3" style="display:none;">
+  <div class="container">
+      <div class="perepstroka">
+    <div class="perepcub">
+      <img src="img/img.png" class="perepcubimg">
+     
+     <img src="img/12.png" class="perepcubimgtre">
+     <img src="img/11.png" class="perepcubimgtwo">
+    </div>
+    <div class="perepglawtext">
+      <p class="pereptextone">
+          Endless<br> icostomization: <br> <span class="pereppodtext">with Webhooks</span>
+      </p>
+
+      <p class="pereptexttwo">
+          Receive successful payment notifications in <br>real-time. Integrate to any scenario of your service.</p>
+      <div class="button">
+        <a href="#" class="button-glaw">Open API Docs</a>
+      </div>
+    </div>
+
+    <div class="perekl1">
+      <p class="pp2">03</p>
+     <div class="pereklone" onclick="showContent(1)"></div>
+      <div class="perekltwo" onclick="showContent(2)"></div>
+      <div class="perekltre" onclick="showContent(3)"></div>
+      <p class="pp3">03</p>
+  </div>
+
+    </div>
+  </div>
+ </div>
+
+ <script>
+  function showContent(num) {
+    var content1 = document.getElementById("content1");
+    var content2 = document.getElementById("content2");
+    var content3 = document.getElementById("content3");
+    if (num === 1) {
+      content1.style.display = "block";
+      content2.style.display = "none";
+      content3.style.display = "none";
+    } else if (num === 2) {
+      content1.style.display = "none";
+      content2.style.display = "block";
+      content3.style.display = "none";
+    } else if (num === 3) {
+      content1.style.display = "none";
+      content2.style.display = "none";
+      content3.style.display = "block";
+    }
+  }
+  
+  </script>
+
+<div class="crypto">
+  <div class="container">
+    <div class="h">
+    <div class="Accept">
+      <p class="accept-glaw">Accept a wide range of cryptocurrencies</p>
+      <p class="accept-glaw1">Bill any supported cryptocurrencies with asset parameter in <span class="accept-podtext">Getlnvoice</span>  method</p>
+        <div class="accept-img">
+          <img src="img/1.png" class="pash">
+          <img src="img/2.png" class="pash">
+          <img src="img/3.png" class="pash">
+          <img src="img/4.png" class="pash1">
+          <img src="img/5.png" class="pash">
+          <img src="img/6.png" class="pash">
+          <img src="img/7.png" class="pash">
+          <img src="img/8.png" class="ii" >
+
+                    
+        </div>
+      </div>
+      <div class="Bco">
+        <div class="Bco1">
+        <div class="start1">
+          <div class="start-button"> <a href="#"><img src="img/start-button.png" class="dog"></a></div>
+          <div class="start-text">One click to start</div>
+          <div class="start-podtext">Open <span class="accept-podtext">@CryptoBot</span>, go to <span class="accept-podtext">Crypto Pay</span> <br> and tap Create App to get API Token</div>
+        </div>
+         <div class="real-time">
+          <div class="real-time-button"><img src="img/real-time.png" class="tot"></div>
+           <div class="real-time-text">Real-time <br>exchange rates</div>
+           <div class="real-time-podtext">Request up to date currency rate with <br> the <span class="accept-podtext">getExchangeRates</span> API method</div>
+        </div>
+        </div>
+        <div class="Bco2">
+          <div class="payment">
+          <div class="payment-img"><img src="img/payment.png" class="cat"></div>
+          <div class="payment-text">Payment statistics</div>
+          <div class="payment-podtext">Open <span class="accept-podtext">@CryptoBot</span>, go to <span class="accept-podtext">Crypto Pay</span> and <span class="accept-podtext">My Apps</span>, <br>App Name to get Statistics</div>
+        </div>
+        </div>
+      </div>
+      <div class="Pochti-Bco">
+        <div class="Pochti-Bco1">
+          <div class="send">
+            <div class="send-img"><img src="img/pol-iphon.png" class="bogdan"></div>
+            <div  class="send-text">Send coins to users</div>
+            <div class="send-podtext">Automate payouts to users with <span class="accept-podtext">ransfer</span> API method</div>
+          </div>
+        </div>
+
+        <div class="Pochti-Bco2">
+          <div class="anonymoys">
+          <div class="anonymous-img"><img src="img/anonimeus.png" class="max"></div>
+          <div  class="anonymoues-text">Anonymous payments</div>
+          
+      
+          <div class="anonymoues-podtext">Use allow_anonymous parameter <br>in <span class="accept-podtext">createInvoice</span> method to give user <br>an option to remain private</div>
+        </div>
+        </div>
+        </div>
+      </div>
+    </div>
+      <div class="Crupto-Pay">
+        <div class="container">
+          <div class="oh-no">
+          <p class="crupto-text-glaw">Quick start using <span class="accept-podtext">Crypto Pay</span></p>
+        <div class="appp">
+          <div class="app">
+          <div class="app-one"><img src="img/TON.png"></div>
+            <p class="app-text">Authorizing your app</p>
+            <p class="app-spisok">1. Open <span class="accept-podtext">@CryptoBot</span></p>
+            <p class="app-sp">2. Go to <span class="accept-podtext">Crypto Pay</span> </p>
+            <p class="app-sp">3. Tap <span class="accept-podtext">Create App</span> </p>
+            <p class="app-sp">4. Get <span class="accept-podtext">API Token</span></p>
+          </div>
+          <div class="app-kart">
+            <img src="img/app.png" class="app1">
+            <img src="img/app1.png" class="app2">
+          </div>
+        </div>
+          
+        <div class="appp">
+          <div class="app-kart1">
+            <img src="img/top.png" class="app11">
+
+          </div>
+
+          <div class="app1">
+          <div class="app-one1"><img src="img/TON1.png"></div>
+          
+            <p class="app-text1">Crypto Pay API Request</p>
+            <p class="xz">Requests are only served over HTTPS <br>To pass parameters use:</p>
+            <ul>
+            <li class="app-spisok1"><span class="accept-podtext">URL query string</span></li>
+            <li class="app-sp1"><span class="accept-podtext">application/json </span> </li>
+            <li class="app-sp1"><span class="accept-podtext">application/x-www-form-urlencoded</span> </li>
+            <li class="app-sp1"><span class="accept-podtext">multipart/form-data</span></li>
+          </ul>
+          </div>
+        </div>
+
+
+        <div class="appp">
+          <div class="app">
+          <div class="app-one"><img src="img/TON3.png"></div>
+          
+            <p class="app-text">Getting updates</p>
+            <p class="xz">There are two ways of receiving <br>updates for your app:</p>
+
+              <ul>
+            <li class="app-spisok"><span class="accept-podtext">getInvoices</span> method to get a list of created <br> invoices.
+              </li>
+           
+            <li class="app-sp2"><span class="accept-podtext">Webhooks</span> to receive updates in realtime. </li>
+            
+          </ul>
+          </div>
+          <div class="app-kart2">
+            <img src="img/top3.png" class="app12">
+            
+          </div>
+        </div>
+
+
+
+
+        </div>
+      </div>
+        </div>   
+      </div>    
+        </div>
+<div class="container">
+        <div class="api">
+          
+            
+            <div class="api-spisk">
+              <div class="api-fotka">
+              <div class="api-spisk-one">
+            <div class="api-text">Crypto Pay API</div>
+            <div class="api-podtext">Explore available methods and types <br>and integrate them in any programming <br> language.</div>
+            <div class="button222">
+              <a href="#" class="button-glaw222">Open API Docs</a>
+          </div>
+          </div>
+
+            <div class="api-img">
+              <img src="img/dada.png" alt="" class="ppp">
+            </div>
+          </div>
+
+
+         
+        </div>
+        </div>
+      </div>
+
+      <div class="join-fon">
+        <div class="container">
+          <p class="join-text">Join dev community</p>
+          <p class="join-podtext">Connect with bot developers and explore the possibilities <br>our crypto payments service unlocks.</p>
+          <div class="join-karts">
+            <div class="mda">
+            <div>
+              <img src="img/one1.png" alt="" class="ff">
+               <p class="mma">crypto-pay-api</p>
+            </div>
+            <div>
+              <img src="img/two2.png" alt="" class="ff">
+              <p class="mma1">CryptoPay</p>
+            </div>
+            <div>
+              <img src="img/tre3.png" alt="" class="ff">
+            <p class="mma2"> crypto-pay-api</p>
+          </div>
+            <div><img src="img/chetiri4.png" alt="" class="ff"><p class="mma3">aiocryptopay</p></div>
+            <div><img src="img/pat5.png" alt=""><p class="mma4">cryptobot-sdk- <br>golang</p></div>
+          </div>
+          </div>
+          <div class="button2222">
+            <a href="#" class="button-glaw2222">Open Devs chat</a>
+        </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="container">
+          <div class="footer-spisk">
+        <div class="footer-1">
+          <img src="img/logo.png" alt="" class="footer-logo">
+          <p class="footer-logo-podtext">©2023 Crypto Bot</p>
+        </div>
+        <div class="footer-2">
+          <p class="footer2-1">Use cases</p>
+          <p class="footer2-1">Features</p>
+          <p class="footer2-1">How to start</p>
+        </div>
+        <div class="footer3">
+          <a href="#" class="footer3-1">Get started</a>
+        </div>
+      </div>
+      </div>
+      </div>
+      
+
+  
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      document.body.classList.add('fade-in');
+    });
+    
+    function goToPage(url) {
+      document.body.classList.add('fade-out');
+      setTimeout(() => {
+        window.location.href = url;
+      }, 1);
+    }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,1817 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+body.fade-in {
+    opacity: 1;
+  }
+  body.fade-out {
+    opacity: 0;
+  }
+.Logo{
+    margin: 40px 0;
+    display: flex;
+}
+.logo-text{
+    margin-left: 32%;
+    margin-top: 20px;
+   
+}
+.san{
+    margin-left: 167px;
+    margin-top: 10px;
+}
+.logo-text-one{
+    color: black;
+    text-decoration: none;
+    font-size:20px ;
+    font-weight: 700;
+    margin-right: 30px;
+}
+.logo-button-one{
+    color:#297EE2;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+.logo-button{
+    background-color:#297EE21F;
+    margin-left: 10px;
+
+    height: 27px;
+    width: 120px;
+    border-radius: 40px;
+ 
+    padding: 18px 45px;
+    
+}
+.container{
+    margin: 0 15%;
+}
+.iphon-glaw-text{
+    margin-top: 100px;
+    font-size: 80px;
+    font-weight: 629;
+}
+.iphone-telegram{
+    color:#41A4DF;
+}
+.iphon-podglaw-text{
+    margin-top: -40px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.iphon-button{
+    background-color:#41A4DF;
+
+
+    height: 27px;
+    width: 120px;
+    border-radius: 40px;
+ 
+    padding: 18px 45px;
+    margin-top: 32px;
+     
+}
+.iphon-button-one{
+    color:#ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+.iphon-karts-one{
+    margin-top: 56px;
+}
+.iphon-posled-text{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+.Iphone{
+    display: flex;
+}
+.iphone-img-one{
+    margin-left: 14vh;
+}
+.perep-fon-one{
+    height: 880px;
+    width: 100%;
+    background-color:#232328;
+    overflow: hidden;
+    margin-top: 120px;
+
+    
+
+}
+
+.perep-cub{
+    width: 488px;
+    height: 488px;
+    border-radius: 40px;
+    background: linear-gradient(340.03deg, #FAACA8 8.42%, #DDD6F3 91.45%);
+    margin-top: 196px;
+}
+.perep-cub-img{
+    padding-top: 136px;
+    padding-left: 47px;
+
+}
+.perep-cub-img-one{
+  padding-left: 47px;
+}
+.perep-stroka{
+    display: flex;
+}
+.perep-text-one{
+    color: #41A4DF;
+    font-weight: 650;
+    font-size: 56px;
+    width: 60%;
+}
+.perep-podtext{
+    color: white;
+    
+}
+.perep-glaw-text{
+    margin-top: 150px;
+    margin-left: 122px;
+}
+.perep-text-two{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -15px;
+}
+.perep-button{
+background-color: #41A4DF;
+height: 58px;
+width: 213px;
+border-radius: 90px;
+overflow: hidden;
+
+}
+.perep-button-one{
+    color: white;
+    text-decoration: none;
+    padding-left: 39px;
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: -20px;
+}
+
+.button{
+    background-color: #41A4DF;
+    height: 25px;
+    width: 140px;
+    border-radius: 40px;
+ 
+    padding: 18px 45px;
+    margin-top: 32px;
+}
+.button-glaw{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+.perekl-one{
+    background-color: #41A4DF;
+    width: 4px;
+    height: 108.67px;
+    border-radius: 90px;
+    margin-left: 150px;
+    margin-top: 12px;
+}
+.perekl-two{
+    background-color: #FFFFFF3D;
+    width: 4px;
+    height: 108.67px;
+    border-radius: 90px;
+    margin-left: 150px;
+    margin-top: 12px;
+}
+.perekl-tre{
+    background-color: #FFFFFF3D;
+    width: 4px;
+    height: 108.67px;
+    border-radius: 90px;
+    margin-left: 150px;
+    margin-top: 12px;
+}
+.pp{
+    color: white;
+    margin-left: 145px;
+    margin-top: 236px;
+
+}
+.pp6{
+    color: white;
+    margin-left: 145px;
+    margin-top: 12px;
+
+}
+.q1{
+    height: 880px;
+    width: 100%;
+    background-color:#232328;
+    overflow: hidden;
+    margin-top: 120px;
+    transition: 1s;
+
+}
+
+
+.q2{
+    width: 488px;
+    height: 488px;
+    border-radius: 40px;
+    background: linear-gradient(206.52deg, #FCB69F 6.91%, #FFECD2 92.45%);
+
+    margin-top: 196px;
+}
+.q3{
+    padding-top: 136px;
+    padding-left: 47px;
+
+}
+.q4{
+  padding-left: 47px;
+}
+.perep-stroka{
+    display: flex;
+}
+.q6{
+    color: #41A4DF;
+    font-weight: 650;
+    font-size: 56px;
+}
+.perep-podtext{
+    color: white;
+}
+.q5{
+    margin-top: 150px;
+    margin-left: 122px;
+}
+.q7{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -15px;
+}
+.perep-button{
+background-color: #41A4DF;
+height: 58px;
+width: 213px;
+border-radius: 90px;
+overflow: hidden;
+
+}
+.perep-button-one{
+    color: white;
+    text-decoration: none;
+    padding-left: 39px;
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: -20px;
+}
+
+
+.perekl-one1{
+    background-color: #FFFFFF3D;
+    width: 4px;
+    height: 108.67px;
+    border-radius: 90px;
+    margin-left: 204px;
+    margin-top: 12px;
+}
+.perekl-two1{
+    background-color: #41A4DF;
+    width: 4px;
+    height: 108.67px;
+    border-radius: 90px;
+    margin-left: 204px;
+    margin-top: 12px;
+}
+.perekl-tre1{
+    background-color: #FFFFFF3D;
+    width: 4px;
+    height: 108.67px;
+    border-radius: 90px;
+    margin-left: 204px;
+    margin-top: 12px;
+}
+.pp1{
+    color: white;
+    margin-left: 199px;
+    margin-top: 236px;
+
+}
+.pp10{
+    color: white;
+    margin-left: px;
+    margin-top: 12px;
+
+}
+
+
+.perep-fonone{
+    height: 880px;
+    width: 100%;
+    background-color:#232328;
+    overflow: hidden;
+    margin-top: 120px;
+    transition: 1s;
+
+}
+
+
+.perepcub{
+    width: 488px;
+    height: 488px;
+    border-radius: 40px;
+    background: linear-gradient(0deg, #C2E9FB -16.6%, #A1C4FD 106.15%);
+
+
+    margin-top: 196px;
+}
+.perepcubimg{
+    padding-top: 30px;
+    padding-left: 16px;
+    margin-bottom: -43px;
+
+}
+
+.perepstroka{
+    display: flex;
+}
+.pereptextone{
+    color: #41A4DF;
+    font-weight: 650;
+    font-size: 56px;
+}
+.pereppodtext{
+    color: white;
+}
+.perepglawtext{
+    margin-top: 150px;
+    margin-left: 122px;
+}
+.pereptexttwo{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -15px;
+}
+.perepbutton{
+background-color: #41A4DF;
+height: 58px;
+width: 213px;
+border-radius: 90px;
+overflow: hidden;
+
+}
+.perepbuttonone{
+    color: white;
+    text-decoration: none;
+    padding-left: 39px;
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: -20px;
+}
+.button{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 50px;
+   
+}
+
+.pereklone{
+    background-color: #FFFFFF3D;
+    width: 4px;
+    height: 108.67px;
+    border-radius: 90px;
+    margin-left: 165px;
+    margin-top: 12px;
+}
+.perekltwo{
+    background-color: #FFFFFF3D;
+    width: 4px;
+    height: 108.67px;
+    border-radius: 90px;
+    margin-left: 165px;
+    margin-top: 12px;
+}
+.perekltre{
+    background-color: #41A4DF;
+    width: 4px;
+    height: 108.67px;
+    border-radius: 90px;
+    margin-left: 165px;
+    margin-top: 12px;
+}
+.pp2{
+    color: white;
+    margin-left: 160px;
+    margin-top: 236px;
+
+}
+.pp3{
+    color: white;
+    margin-left: 160px;
+    margin-top: 12px;
+
+}
+
+.buttonone{
+    text-decoration: none;
+    color: white;
+}
+.perepcubimgtwo{
+    padding-left: 221px;
+    margin-top: -880px;
+  }
+  .perepcubimgtre{
+     margin-top: -35px;
+     margin-left: 16px;
+     overflow: hidden;
+     margin-bottom: -235px;
+  }
+.crypto{
+    margin-top: 120px;
+
+
+}
+.Accept{
+    background-color:#F7F9FB;
+    width: 1200px;
+    height: 345px;
+    border-radius: 40px;
+    overflow: hidden;
+}
+.accept-glaw{
+    font-weight: 629;
+    font-size: 42px;
+    margin-top: 42px;
+    margin-left: 66px;
+}
+.pash1{
+    margin-right: 30px;
+}
+.accept-glaw1{
+    color: #111111CC;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: -30px;
+    margin-left: 66px;
+}
+.accept-podtext{
+    color:#41A4DF;
+}
+.accept-img{
+   margin-top: 42px;
+   margin-left: 66px;
+}
+.pash{
+    margin-right: 30px;
+}
+.start1{
+    width: 488px;
+    height: 366px;
+    background-color: #F7F9FB;
+    margin-top: 20px;
+    overflow: hidden;
+    border-radius: 40px;
+}
+.start-button{
+    margin-top: 42px;
+    margin-left: 56px;
+}
+.start-text{
+    font-size: 42px;
+    font-weight: 629;
+    margin-top: 16px;
+    margin-left: 56px;
+}
+.start-podtext{
+    margin-top: 20px;
+    margin-left: 56px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.real-time{
+    width: 488px;
+    height: 366px;
+    background-color: #F7F9FB;
+    margin-top: 20px;
+    overflow: hidden;
+    border-radius: 32px;
+}
+.real-time-button{
+    margin-top: 42px;
+    margin-left: 56px;
+}
+.real-time-text{
+    font-size: 42px;
+    font-weight: 629;
+    margin-top: 20px;
+    margin-left: 56px;
+}
+.real-time-podtext{
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 56px;
+    margin-top: 20px;
+}
+.Bco{
+    display: flex;
+}
+.payment{
+    background-color: #F7F9FB;
+    width: 692px;
+    height: 748px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 40px;
+    overflow: hidden;
+
+}
+.payment-img{
+    margin-top: 42px;
+    margin-left: 56px;
+}
+.payment-text{
+   font-size: 42px;
+   font-weight: 629;
+   margin-left: 56px;
+   margin-top: 20px;
+}
+.payment-podtext{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-left: 56px;
+}
+.Pochti-Bco{
+    display: flex;
+}
+.send{
+    background-color: #F7F9FB;
+    width: 692px;
+    height: 510px;
+    margin-top: 20px;
+    overflow: hidden;
+    border-radius: 40px;
+}
+.send-img{
+    margin-top: 0px;
+    margin-left: 42px;
+}
+.send-text{
+   font-size: 42px;
+   font-weight: 629;
+   margin-left: 56px;
+   margin-top: 20px;
+}
+.send-podtext{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-left: 56px;
+}
+.anonymoys{
+    background-color: #F7F9FB;
+    width: 488px;
+    height: 510px;
+    margin-top: 20px;
+    overflow: hidden;
+    border-radius: 40px;
+    margin-left: 20px;
+}
+.anonymous-img{
+    margin-top: 42px;
+    margin-left: 42px;
+}
+.anonymoues-text{
+   font-size: 42px;
+   font-weight: 629;
+   margin-left: 56px;
+   margin-top: 20px;
+}
+.anonymoues-podtext{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-left: 56px;
+}
+.Crupto-Pay{
+   width: 100%;
+   height: 1886px;
+   background-color: #F7F9FB;
+   margin-top: 140px;
+   overflow: hidden;
+}
+.crupto-text-glaw{
+    font-size: 56px;
+    font-weight: 629;
+    margin-left: 232.5px;
+}
+.app-text{
+    font-size: 42px;
+    font-weight: 629;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.app-sp{
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.app-spisok{
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.app-kart{
+    width: 590px;
+    height: 488px;
+    
+    border-radius: 40px;
+    background: linear-gradient(297.24deg, #8EC5FC 8.25%, #E0C3FC 91.76%);
+    margin-left: 150px;
+
+}
+.appp{
+    display: flex;
+}
+.app1{
+    margin-top: 117px;
+    margin-left: 99px;
+}
+.app2{
+    margin-left: 99px;
+}
+.app{
+    margin-top: 100px;
+}
+
+
+
+
+.app-text1{
+    font-size: 42px;
+    font-weight: 629;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.app-sp1{
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+.app-spisok1{
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.app-kart1{
+    width: 590px;
+    height: 488px;
+    
+    border-radius: 40px;
+    background: linear-gradient(206.52deg, #FCB69F 6.91%, #FFECD2 92.45%);
+
+    margin-left: 0px;
+    margin-top: 40px;
+
+}
+.appp1{
+    display: flex;
+}
+.app11{
+    margin-top: 200px;
+    margin-left: 99px;
+}
+
+.app1{
+    margin-top: 100px;
+}
+.xz{
+   
+
+font-size: 20px;
+font-weight: 600;
+
+color: #111111CC;
+;
+text-align: left;
+margin-left: 10px;
+margin-top: -25px;
+
+}
+
+.app-kart2{
+    width: 590px;
+    height: 488px;
+    
+    border-radius: 40px;
+    background: linear-gradient(0deg, #C2E9FB -16.6%, #A1C4FD 106.15%);
+
+
+    margin-left: 140px;
+    margin-top: 40px;
+
+}
+.app-sp2{
+    
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+.app12{
+    margin-top: 145px;
+    margin-left: 93.3px;
+}
+.api-spisk{
+    width: 1200px;
+height: 550px;
+
+
+border-radius: 40px;
+background: linear-gradient(233.23deg, #9FCCFA -20.48%, #0974F1 97.38%);
+margin-top: 120px;
+overflow: hidden;
+margin-left: 70px;
+
+}
+.api-text{
+    font-size: 56px;
+    font-weight: 629;
+    margin-top: 147px;
+    color: white;
+    margin-left: 80px;
+}
+.api-podtext{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 32px;
+    color: white;
+    margin-left: 80px;
+}
+.api-button{
+    width: 213px;
+height: 58px;
+
+
+
+border-radius: 90px;
+border: 1px solid rgb(255, 255, 255);
+border-color: white;
+overflow: hidden;
+margin-left: 80px;
+margin-top: 32px;
+
+
+}
+.api-button1{
+    
+   
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    margin-left: 42px;
+    
+}
+.api-img{
+    margin-left:23px ;
+    height: 100%;
+}
+.api-fotka{
+    display: flex;
+}
+.ppp{
+    height: 550px;
+}
+.button222{
+    background-color: #0974F1 93%;
+    height: 25px;
+    width: 140px;
+    border-radius: 40px;
+ 
+    padding: 18px 45px;
+   
+    border: 2px solid rgb(255, 255, 255);
+    margin-left: 80px;
+    margin-top: 32px;
+}
+.button-glaw222{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+.join-text{
+
+font-size: 56px;
+font-weight: 900;
+
+text-align: center;
+padding-top: 24px;
+
+}
+.join-fon{
+    margin-top: 120px;
+    background-color: rgb(255, 255, 255);
+    border-radius:40px;
+    width: 100%;
+    height: 690px;
+    
+    position: absolute;
+    top: 6340px;
+    left: 0;
+    z-index: 2;
+    margin-bottom: -5px;
+
+}
+.join-podtext{
+
+
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+
+text-align: center;
+
+}
+.join-karts{
+    display: flex;
+   margin-left: 184px;
+   margin-top: 50px;
+}
+.ff{
+    margin-right: 104px;
+}
+.mma{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: -15px;
+}
+.mma1{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 7px;
+}
+.mma2{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: -10px;
+}
+.mma3{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: -8px;
+}
+.mma4{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: -8px;
+}
+.button2222{
+    background-color: #41A4DF;
+    height: 25px;
+    width: 153px;
+    border-radius: 40px;
+ 
+    padding: 20px 45px;
+   
+ 
+    margin-left: 550.5px;
+    margin-top: 32px;
+}
+.button-glaw2222{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+
+
+}
+.footer{
+    width: 100%; 
+height: 370px;
+background-color: #232328;
+margin-top: 658px;
+
+    position: relative;
+    z-index: 1;
+overflow: hidden;
+
+}
+.footer-1{
+    padding-top: 200px;
+}
+.footer-logo-podtext{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.footer-2{
+    display: flex;
+    margin-left: 270px;
+}
+.footer2-1{
+   padding-top: 205px;
+    color: white;
+    margin-right: 40px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.footer-spisk{
+    display: flex;
+}
+.footer3{
+    background-color: #232328;
+    height: 20px;
+    width: 110px;
+    border-radius: 40px;
+    border: 2px solid #FFFFFF99;
+    padding: 20px 65px;
+   
+ 
+    margin-left: 200px;
+  
+    margin-top: 200px;
+}
+.footer3-1{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+.oh-no{
+    margin-left: 50px;
+}
+.h{
+    margin-left: 50px;
+}
+.dog{
+    width: 100%;
+    height: 100%;
+}
+.mda{
+    display: flex;
+}
+
+
+
+
+
+@media only screen and (max-width: 1200px){
+    .container{
+     margin: 0 10%;
+     background-color: blue;
+    }
+    .logo-text{
+     margin-left: 10%;
+     margin-top: 2.4%;
+     font-size: 18px;
+     font-weight: 600;
+     width: 100%;
+    }
+    .san{
+     margin-left: 0px;
+     margin-top: 23%;
+     
+    }
+
+    .logo-button{
+     padding: 3% 4%;
+     height: 25px;
+     width: 240px;
+    }
+    .iphon-glaw-text{
+     margin-top: 80px;
+     font-size: 60px;
+     font-weight: 629;
+    }
+    .iphon-img-one{
+     margin-left: 9%;
+    }
+    .perep-cub{
+     width: 350px;
+     height: 350px;
+     margin-top: 14%;
+     overflow: hidden;
+    }
+    .perep-fon-one{
+     height: 100vh;
+     width: 100%;
+    }
+    .perep-cub-img{
+     margin-top: -10%;
+     width: 300px;
+     margin-left: -7%;
+    }
+    .perep-cub-img-one{
+     margin-left: -7%;
+     width: 300px;
+    }
+    .pererl{
+     display: none;
+ }
+ .perep-text-one{
+     font-size: 30px;
+ }
+ .perep-glaw-text{
+     margin-top: 100px;
+     margin-left: 10px;
+ }
+ .perep-text-two{
+     font-size: 20px;
+     font-weight: 400;
+     margin-top: -15px;
+ }
+ .button{
+ 
+     margin-top: 10px;}
+  
+ 
+
+ .pp{
+     margin-top: 100px;
+     margin-left: 60px;
+ }
+ .perekl-one{
+     margin-left: 65px;
+ 
+ }
+ .perekl-two{
+     margin-left: 65px;
+ }
+ .perekl-tre{
+     margin-left: 65px;
+ }
+ .pp6{
+     margin-left: 60px;
+ }
+ .h{
+     margin: 0;
+ }
+ .Accept{
+     width: 100%;
+     height: 100%;
+ }
+ .accept-img{
+     margin-left: 14%;
+     width: 70%;
+ }
+ .start1{
+     width: 400px;
+     height: 300px;
+ }
+ .dog{
+     width: 80%;
+     height: 80%;
+ }
+ .start-text{
+     font-size: 35px;
+     margin-top: -19px;
+ }
+ .start-button{
+     margin-top: 10px;
+ }
+ .real-time{
+     width: 400px;
+     height: 430px;
+ }
+ .real-time-button{
+     margin-left: 2.6%;
+ }
+ .real-time-text{
+     margin-left: 10.6%;
+ }
+ .real-time-podtext{
+     margin-left: 7%;
+ }
+ .payment{
+     width: 380px;
+ }
+ .cat{
+     width: 300px;
+ }
+ .payment-img{
+     margin-left: 10.5%;
+ }
+ .payment-text{
+     margin-left: 25%;
+ }
+ .payment-podtext{
+     width: 70%;
+ }
+ .send{
+     width: 450px;
+ }
+ .bogdan{
+     width: 370px;
+ }
+ .send-text{
+     font-size: 35px;
+     width: 80%;
+ }
+ .anonymoys{
+     width: 335px;
+ }
+ .max{
+     width: 300px;
+ }
+ .anonymous-img{
+     margin-left: 5.3%;
+ }
+ .anonymoues-text{
+     font-size: 35px;
+     margin-left: 8%;
+ }
+ .anonymoues-podtext{
+     margin-left: 8%;
+ }
+ .crupto-text-glaw{
+     margin-left: 19%;
+     width: 60%;
+ }
+ .oh-no{
+     margin-left: 0;
+ }
+ .app{
+     margin-top: 5%;
+     width: 50%;
+ }
+ .app-text{
+     font-size: 33px;
+ }
+ .app-spisok{
+     margin-left: 2.4px;
+ }
+ .app1{
+     margin-left: 5.9%;
+     margin-top: 35px;
+ }
+ .app-kart{
+     width: 100%;
+     height: 450px;
+ }
+ .app2{
+     margin-left: 5.9%;
+ }
+ .app-kart1{
+     width: 100%;
+     height: 450px;
+ }
+ .app11{
+     margin-left: 10%;
+ }
+ .app-text1{
+     font-size: 34px;
+ }
+ .app-cart2{
+     width: 100%;
+     height: 450px;
+ }
+ .app-kart2{
+     width: 590px;
+     height: 488px;
+     margin-top: 40px;
+     margin-left: 15px;
+ }
+ .app12{
+     margin-left: 7%;
+ }
+ .api-spisk{
+     width: 100%;
+     margin-left: 3%;
+ }
+ .api-text{
+     font-size: 45px;
+     margin-top: 100px;
+     margin-left: 25%;
+ }
+ .join-karts{
+     margin-left: 0;
+ }
+ .mma{
+     margin-left: -1px;
+ }
+ .ff{
+     margin-right: 10vh;
+ }
+ .button2222{
+     margin-left: 35%;
+ }
+ .join-fon{
+     width: 100.09%;
+ }
+ .footer-logo{
+     width: 40px;
+     height: 40px;
+ }
+ .footer3{
+     height: 20px;
+     width: 100px;
+     padding: 10px 30px;
+     margin-top: 30%;
+     margin-left: 10%;
+ }
+ .footer2-1{
+     font-size: 16px;
+     margin-top: 4%;
+ }
+ .footer-1{
+     padding-top: 30%;
+ }
+ .footer-logo-podtext{
+     font-size: 16px;
+     width: 70%;
+ }
+ .footer-2{
+     margin-left: 6%;
+     margin-top: 10%;
+ }
+ .q1{
+     height: 100vh;
+     width: 100%;
+ }
+}
+
+@media only screen and (max-width: 992px){
+    .container{
+        background-color: red;
+    }
+    .logo-text{
+        display: none;
+    }
+    .logo-button{
+        width: 19%;
+        margin-left: 6%;
+    }
+    .san{
+        margin-top: 3%;
+        margin-left: 300px;
+    }
+    .Iphone{
+        display: inline-block;
+    }
+    .iphon-glaw-text{
+        text-align: center;
+    }
+    .iphon-podglaw-text{
+        margin-left: 23%;
+    }
+    .iphon-button{
+        margin-left: 36%;
+    }
+    .iphon-karts{
+        margin-left: 24%;
+    }
+    .iphon-posled-text{
+        margin-left: 8%;
+    }
+    .perep-stroka{
+        display: inline-block;
+        width: 100%;
+    }
+    .perep-fon-one{
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+    }
+    .perekl{
+        display: flex;
+        margin-top: 15%;
+    }
+    .perekl-one{
+        height: 4px;
+        width: 108.67px;
+        margin-left: 10px;
+    }
+    .perekl-two{
+        height: 4px;
+        width: 108.67px;
+        margin-left: 10px;
+    }
+    .perekl-tre{
+        height: 4px;
+        width: 108.67px;
+        margin-left: 10px;
+    }
+    .pp{
+        margin-top:0px;
+        margin-top: 1%;
+        margin-left: 15%;
+    }
+    .pp6{
+        margin-left: 5%;
+        margin-top: 1%;
+    }
+    .perep-cub{
+        margin-left: 20%;
+    }
+    .perep-glaw-text{
+        margin-top: 50px;
+        width: 100%;
+    }
+    .perep-text-one{
+        margin-left: 26%;
+    }
+    .perep-text-two{
+        text-align: center;
+    }
+    .button{
+        margin-top: 8%;
+        width: 25%;
+        margin-left: 6%;
+        padding: 18px 30%;
+    }
+    .accept-glaw{
+        width: 70%;
+        margin-left: 15%;
+    }
+    .accept-glaw1{
+        width: 70%;
+        margin-left: 15%;
+    }
+    .pash{
+        margin-left: 1%;
+    }
+    .pash1{
+        margin-left: 1%;
+    }
+    .Bco{
+        display: inline-block;
+        width: 100%;
+    }
+    .start1{
+        width: 100%;
+    }  
+    .start-text{
+        margin-left: 24%;
+    }
+    .start-podtext{
+        margin: 20px 18%;
+    }
+    .real-time{
+        width: 100%;
+        height: 100%;
+    }
+    .real-time-button{
+        margin-left: 18%;
+    }
+    .real-time-podtext{
+        margin: 30px 11%;
+    }
+    .payment{
+        width: 100%;
+        height: 100%;
+        margin-left: 0;
+    }
+    .payment-img{
+        margin-left: 24%;
+    }
+    .payment-text{
+        margin-left: 11%;
+
+    }
+    .payment-podtext{
+        width: 100%;
+        margin: 30px 11%;
+    }
+    .Pochti-Bco{
+        display: inline-block;
+        width: 100%;
+    }
+    .send{
+        width: 100%;
+        
+    }
+    .bogdan{
+        width: 100%;
+        margin-left: 0;
+    }
+    .send-img{
+        margin-left: 0;
+    }
+    .anonymoys{
+        width: 100%;
+        margin-left: 0;
+        height: 100%;
+    }
+    .anonymous-img{
+        margin-left: 24%;
+    }
+    .anonymoues-podtext{
+        margin: 30px 8%;
+    }
+    .Crupto-Pay{
+        height: 100%;
+    }
+    .crupto-text-glaw{
+        font-size: 43px;
+    }
+    .appp{
+        display: inline-block;
+    }
+    .join-fon{
+        width: 100%;
+        top: 1870%;
+    }
+    .api-spisk{
+        margin-left: 0;
+    }
+    .app-kart{
+        margin-left: 0;
+    }
+
+    .app2{
+        margin-left: 18%;
+    }
+    .appp{
+       width: 100%;
+    }
+    .app11{
+        margin-left: 17%;
+        margin-top: 30%;
+    }
+    .app1{
+        margin-left: 18%;
+        margin-top: 16%;
+    }
+    .app-kart2{
+        width: 100%;
+        margin-left: 0;
+    }
+    .app12{
+        margin-left: 17%;
+        
+    }
+    .pp{
+        margin-right: 4%;
+    }
+    .mma{
+font-size: 16px;
+    }
+    .mma1{
+        font-size: 16px;
+    }
+    .mma2{
+        font-size: 16px;
+    }
+    .mma3{
+        font-size: 16px;
+        margin-left: 5px;
+    }
+    .mma4{
+        margin-left: 3px;
+        font-size: 16px;
+    }
+    .ff{
+        margin-right: 60%;
+    }
+    .button2222{
+        margin-left: 31%;
+    }
+    .footer{
+        height: 100%;
+    }
+    .footer-1{
+        padding-top: 20%;
+    }
+    .footer-2{
+        display:none;
+    }
+    .footer3{
+        margin-left: 50%;
+        margin-top: 25%;
+    }
+
+
+   
+}
+@media only screen and (max-width: 768px){
+    .san{
+        margin-left: 160%;
+        margin-top: 30%;
+    }
+    .container{
+        background-color: purple;
+    }
+    .logo-button{
+        width: 30%;
+        margin-left: 33%;
+        padding: 3% 4%;
+        
+    }
+    .iphon-glaw-text{
+        font-size: 40px;
+     
+    }
+    .Iphone{
+        width: 100%;
+    }
+    .iphon-podglaw-text{
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+    }
+    .iphon-button{
+        margin-left: 22%;
+    }
+    .iphon-karts{
+        margin-left: 0;
+    }
+    .iphon-karts-one{
+        width: 100%;
+        margin-left: 0;
+    }
+    .iphone-img-one{
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+    .iphon-posled-text {
+        margin-left: 0;
+        text-align: center;
+    }
+    .perep-text-one{
+        margin-left: -10px;
+        text-align: center;
+        width: 100%;
+    }
+    .perep-cub{
+        margin-left: 0;
+ 
+        width: 100%;
+    }
+    .perep-text-two{
+      width: 100%;
+      text-align: center;
+      margin-left: -10px;
+    }
+    .button{
+        margin-left: -10px;
+        width: 40%;
+    }
+    .pp{
+        margin-left: 0;
+    }
+    .h{
+        width: 100%;
+    }
+    .accept-glaw{
+        width: 80%;
+        margin-left: 5%;
+    }
+    .accept-glaw1{
+        width: 95%;
+        margin-left: 5%;
+    }
+    .pash{
+        margin-left: 4%
+    }
+    .accept-img{
+        width: 100%;
+    } 
+    .start-text{
+        margin-left: 0;
+        text-align: center;
+    }
+    .start-podtext{
+        margin: 20px 3%;
+        width: 95%;
+        text-align: center;
+    }
+    .real-time-button{
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .payment-img{
+        margin-left: 0;
+        text-align: center;
+    }
+    .payment-podtext{
+        width: 80%;
+    }
+    .send-podtext{
+        width: 80%;
+        margin-bottom: 30px;
+    }
+    .send{
+        height: 100%;
+    }
+    .anonymous-img{
+        margin-left: 0;
+        text-align: center;
+    }
+    .anonymoues-text{
+        margin-left: 12%;
+    }
+    .anonymoues-podtext{
+        margin: 30px 9%;
+        width: 90%;
+    }
+    .oh-no{
+        width: 100%;
+    }
+    .crupto-text-glaw{
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+    .app{
+        width: 100%;
+    }
+    .app1{
+        margin-left: 5.9%;
+      margin-top: 30%;
+        width: 90%;
+    }
+    .app2{
+        width: 90%;
+        margin-left: 6%
+    }
+    .app11{
+        margin-top: 50%;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .app-one1{
+        margin-left: 0;
+    }
+    .app12{
+        margin-left: 5.3%;
+        width: 90%;
+        margin-top: 40%;
+    }
+    .mda{
+        width: 100%;
+    }
+    .button2222{
+        margin-left: 18%;
+    }
+    .footer3{
+        margin-left: 16%;
+    }
+    .join-karts{
+        overflow-x: scroll;
+    }
+    
+}
+@media only screen and (max-width: 480px){
+    .container{
+        background-color: lawngreen;
+    }
+    .logo-glaw{
+        width: 100%;
+    }
+    .san{
+        width: 100%;
+    }
+    .logo-button{
+        width: 50%;
+        margin-top: 1%;
+    }
+    .logo-button-one{
+        font-size: 15px;
+    }
+    .iphon-glaw-text{
+        margin-top: 0;
+    }
+    .iphon-button{
+        margin-left: 10%;
+    }
+    .perep-cub{
+        height: 100%;
+    }
+    .perep-cub-img{
+        margin-top: -40%;
+        width: 90%;
+        margin-left: -13.5%;
+    }
+    .perep-cub-img-one{
+        margin-left: -13.5%;
+        width: 90%;
+        margin-bottom: 10%;
+    }
+    .button{
+        width: 100%;
+        padding: 10px 0;
+    }
+    .button-glaw{
+        margin-left: 22%;
+    }
+    .accept-glaw{
+        width: 100%;
+    }
+    .pash{
+        width: 15%;
+    }
+    .pash1{
+        width: 15%;
+        margin-right: 8%;
+        margin-left: 1px;
+    }
+    .ii{
+        width: 15%;
+    }
+    .tot{
+        width: 100%;
+    }
+        .cat{
+            width: 100%;
+        }
+        .send-text{
+            margin-left: 10%;
+        }
+        .send-podtext{
+            margin-left: 10%;
+        }
+        .max{
+            width: 90%;
+        }
+        .anonymoues-text{
+            margin-left: 10%;
+        }
+        .app-kart{
+            height: 100%;
+        }
+        .app2{
+            margin-bottom: 20%;
+        }
+    .app-kart1{
+        height: 100%;
+    }
+    .app11{
+        margin-top: 40%;
+        margin-bottom: 35%;
+    }
+    .app-kart2{
+        height: 100%;
+    }
+    .app12{
+        margin-bottom: 35%;
+    }
+    .api{
+        width: 100%;
+    }
+    .api-fotka{
+        width: 100%;
+    }
+    .api-text{
+        margin-left: 0;
+        text-align: center;
+    }
+    .api-podtext{
+        margin-left: 2%;
+        width: 100%;
+        text-align: center;
+        
+    }
+    .button222{
+        margin-left: 4.5%;
+    }
+    .button2222{
+        margin-left: 0;
+        width: 100%;
+        padding: 8% 0;
+    }
+    .button-glaw2222{
+        margin-left: 21%;
+    }
+    .join-text{
+        font-size: 43px;
+    }
+    .join-fon{
+        top: 1649%;
+    }
+    .footer{
+        margin-top: 182%;
+    }
+    .footer3{
+        width: 100%;
+        height: 100%;
+        padding: 10px 0;
+        margin-top:33%;
+    }
+    .footer3-1{
+        margin-left: 13%;
+        
+    }
+    
+}
